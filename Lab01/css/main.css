@@ -1,53 +1,74 @@
-body{
+body {
     width: 650px;
     margin: 0 auto;
     background: black;
     color: #FFF;
     font: 20px sans-serif;
 }
+
+/* ขั้นตอนที่ 2 */
+nav ul {
+    display: flex;         
+    gap: 20px;             /* gap ขั้นตอนที่ 3  */
+    padding: 0;             
+    margin: 0;             
+    justify-content: center; 
+}
+
 header{
     padding: 10px 0px;
     font-size: 1.5em;
 }
+
 h3{
     font-size: 20px;
     margin-top: 0;
 }
+
 a{
     color: #FAA202;
     font-weight: bold;
 }
+
+/* ขั้นตอนที่ 1 ลบ float: left;  */
 li{
     list-style: none;
-    float: left;
+
 }
-.menu {
+
+.menu{
     padding: 0px 10px;
 }
+
 main{
     margin-top: 50px;
 }
+
 table{
     font-size: 1rem;
     margin-bottom: 10px;
     border-spacing: 0;
 }
+
 caption{
     margin-bottom: 10px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: left;
 }
+
 th, td{
     text-align: left;
 }
+
 section{
-    margin-bottom: 20px 0px;
+    margin: 20px 0px;
     padding: 30px 20px 30px 20px;
     border: 2px solid #FFF;
     border-radius: 20px;
     box-shadow: 10px 10px 5px #888888;
 }
+
 #jupiter{
     background-image: url(../images/Jupiter.jpg);
 }
@@ -60,6 +81,7 @@ section{
 #neptune{
     background-image: url(../images/Neptune.jpg);
 }
+
 footer{
     text-align: center;
     background-color: #388bff;
